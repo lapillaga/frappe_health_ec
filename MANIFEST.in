@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_health_ec *.css
+recursive-include frappe_health_ec *.csv
+recursive-include frappe_health_ec *.html
+recursive-include frappe_health_ec *.ico
+recursive-include frappe_health_ec *.js
+recursive-include frappe_health_ec *.json
+recursive-include frappe_health_ec *.md
+recursive-include frappe_health_ec *.png
+recursive-include frappe_health_ec *.py
+recursive-include frappe_health_ec *.svg
+recursive-include frappe_health_ec *.txt
+recursive-exclude frappe_health_ec *.pyc
