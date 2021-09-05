@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "autoname": "Prompt",
+ "creation": "2021-09-01 02:04:11.284924",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "identification_name",
+  "by_default",
+  "requires_id"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "by_default",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Por defecto",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "requires_id",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Requiere ID",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "identification_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tipo",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-01 02:31:19.230694",
+ "modified_by": "Administrator",
+ "module": "Frappe Health Ec",
+ "name": "IdentificationType",
+ "name_case": "UPPER CASE",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "identification_name",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "identification_name",
+ "track_changes": 1
+}
